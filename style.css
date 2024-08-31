@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --rf-brand: #fb8d19;
+--rf-brand-rgb:248,54 145;
+--rf-dark: #212237;
+--rf-body: #989898;
+--r-main: "Roboto",sans-serif;
+--transition: all .6s cubic-bezier(.165,.84,  44, 1);
+--shadow:Opx, 15px, 30px, rgba(0,0,0,0. 1);
+}
+
+body{
+  color:var(--rf-body);
+  line-height: 1,8;
+}
+
+h1, .h1 h2, .h2 h3, .h3 h4, .h4 h5, .h5 h6, .h6{
+  font-weight: 700;
+  color:var(--rf-brand-rgb);
+  font-family: var(--f-main);
+}
+
+.text-brand{
+  color: var(--rf-brand);
+}
+
+.navbar{
+  padding-top: 30px;
+  padding-bottom:  30px;
+}
+
+.but{
+  background-color: var(--rf-brand);
+}
+
+#home{
+  background-image: url(wo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.btn-brand{
+  background-color: var(--rf-brand);
+}
+
+.section-padding{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.section-title{
+  max-width: 550px;
+  margin:0 auto 60px auto;
+}
+
+.about-icon{
+  width: 60px;
+  height: 60px;
+  background-color:var(--rf-brand);
+  color: white;
+  font-size: 27px;
+  display: inline-flex;
+  justify-items: center;
+  align-items: center;
+  
+}
+
+.project{
+  overflow: hidden;
+  position: relative;
+}
+
+.project .content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--rf-brand)
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  
+}
+
+.project img,
+.project .content{
+  transition: var(--transition)
+}
+
+footer h4 {
+ color: var(--rf-brand);
+}
